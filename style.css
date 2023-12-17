@@ -1,0 +1,586 @@
+  /*--------------------------- Basics -----------------------------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+  }
+
+h1, h2{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 2%;
+    padding-top: 5%;
+    }
+
+h3 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 3%;
+    }
+
+h4, h5{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 3%;
+    }
+p{
+    font-family: 'Krub', sans-serif;
+    font-size: 1rem;
+    }
+a {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    text-decoration: underline;
+    color: #000000;
+    }
+a:hover{
+    color: #777777;
+    }
+ul{
+    font-family: 'Krub', sans-serif;
+    font-size: 1rem;   
+    }
+.construction_page{
+    background-color: #f1efe4;
+    }
+.construction_page p{
+text-align: center;
+    }
+
+  /*--------------------------- Navbar ----------------------------- */
+.navigation__container{
+    background: #f1efe4;
+    position: sticky;
+    top: 0;
+    padding: 3%;
+    align-items: center;
+    }   
+
+.mobileiconlabel{
+    display: flex;
+    float: inline-end;
+    color: #000000;
+    background: #f1efe4;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 2%;
+    }
+
+.menuitem{
+    display: block;
+    width: 100%;
+    padding: 5%;
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    }
+.menuitem:hover{
+    background: #b1b1b1;
+    }  
+
+
+.menuitems__container, 
+.mobileicon{
+    display: none;
+    }
+
+.navigation__container input:checked ~ .menuitems__container{
+    display: block;
+    }
+
+.companylogo{
+    display: block;
+    position: relative;
+    width: 20%;
+    }
+
+ /* ------------------------------- Footer ----------------------*/
+
+ .footer{
+    font-family: 'Krub', sans-serif;
+    }
+ .flex_container2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+  .flex_container2 h2{
+    font-weight: 300;
+    }
+  .flex-item{
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    } 
+  .footer {
+    background-color: #f1efe4;
+    color: #000000;
+    padding: 10px 0;
+    }
+
+ /* ------------------------------- front page ----------------------*/
+
+ .container1 {
+    position: relative;
+    height: auto;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    }
+.beertap{
+    width: 100%;
+    height: 75%;
+    }
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 5%;
+    }
+
+.centered h3{
+    font-style: italic;
+    }
+
+.konkurrence{
+    border: #f1efe4;
+    background-color: #f1efe4;
+    padding: 20px;
+    }
+.konkurrence h2{
+    padding-top: 2%;
+    text-align: center;
+    color: #4f4f4f;
+    font-weight: 400;
+    }
+.konkurrence p{
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    color: #4f4f4f;
+    }   
+.arrow{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    }   
+.cans{
+    width: 200px;
+    height: 250px;
+    }
+.flex-container1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    justify-content: space-around;
+    }
+.flex-container1 h2{
+    text-align: center;
+    }
+.overskrift1 a{
+    text-decoration: none;
+    }
+.overskrift1 h2{
+    font-size: 1.5rem;
+    }
+.overskrift1 h4{
+    text-align: center;
+    font-style: italic;
+    font-size: 1rem;
+    }
+.zero{
+    color: #4f4f4f;
+    font-weight: 500;   
+    }
+.products {
+    text-align: center;
+    }
+
+.flex-item a{
+    text-decoration: none;
+    }
+ /* ------------------------------- Vores Smage ----------------------*/
+
+ .beercans{
+    max-width: 80%;
+    }
+ .flex-container3, .flex-container4, .flex-container5, 
+ .flex-container6, .flex-container7, .flex-item {
+    align-items: center;
+    }
+ .flex-container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    }
+
+ .flex-container3 p{
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+ .flex-container3 h3{
+    text-align: center;
+    }
+ .flex-container4{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: left;
+    }
+ .flex-container4 p{
+    text-align: left;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+ .flex-container4 h3{
+    text-align: center;
+    }
+
+.flex-container5{
+    display: flex;
+     flex-direction: column;
+    justify-content: left;
+    }
+.flex-container5 p{
+    text-align: left;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+.flex-container5 h3{
+    text-align: center;
+    }
+
+.flex-container6{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: left;
+    }
+.flex-container6 p{
+    text-align: left;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+.flex-container6 h3{
+    text-align: center;
+    }
+    
+.flex-container7{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    }
+.flex-container7 p{
+    text-align: left;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+.flex-container7 h3{
+    text-align: center;
+    }
+
+
+
+ /* ------------------------------- Inspiration ----------------------*/
+
+ .info{
+    padding: 10%;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 5%;
+ }
+.divide{
+    border:#f1efe4;
+    background-color: #f1efe4;
+}
+
+.people{
+    width: 50%;
+    justify-content: center;
+}
+
+.flex-container-inspo {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container-inspo2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item{
+    flex: 1;
+    padding-top: 0%;
+}
+.flex-item p{
+    text-align: center;
+    padding: 5%;
+    line-height: 1.5;
+}
+.scalable-container {
+    max-width: 600px; 
+    margin: 0 auto;   
+  }
+  
+  .scalable-image {
+    max-width: 100%;   
+    max-height: 250px; 
+    width: auto;       
+    height: auto;      
+  }
+
+   /* ------------------------------- Events ----------------------*/
+
+.flex-container-events{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+
+}
+.flex-item-event{
+    flex: 1;
+    background-color:#f1efe4;
+    padding: 5%;
+    margin: 5%;
+}
+.flex-container-events p{
+    line-height: 1.5;
+    margin: 10px;
+    }
+
+ /* ------------------------------- Find os ----------------------*/
+
+main p{
+    text-align: center;
+    }
+ .container2 {
+    position: relative;
+    height: auto;
+    color: white;
+    padding-top: 3%;
+    }
+  .container2 h3{
+    font-size: 1rem;
+    }
+  .container2 h5{
+    font-style: italic;
+    font-size: 0.5rem;
+    }
+  .centered a{
+    color: white;
+    }
+  .centered a:hover{
+    color: #777777;
+    }
+
+.places{
+    margin-top: 5%;
+    }
+
+.city{
+    text-align: center;
+    }
+
+ .koncert{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+ .flex-container-find{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    }
+.flex-container-find ul{
+    padding-left: 10%;
+    }
+ .flex-box{
+    flex: 1;    
+    }
+
+ /* ------------------------------- Media queres ----------------------*/
+ 
+   /*-------------------------------NAVBAR-------------------------*/
+
+ @media screen and (min-width: 770px){
+.navigation__container{
+    padding-bottom: 0%;
+    padding-top: 2%;
+    }
+
+.mobileiconlabel,
+.mobileicon{
+    display: none;
+    }
+   
+.menuitem:hover{
+    background:#b1b1b1;
+    }
+.menuitem{
+    font-size: 1.3rem;
+    justify-content: space-between;
+    padding: 1.5%;
+    text-align: center;
+    }
+.menuitems__container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0%;
+    }
+.companylogo{
+    max-width: 10% ;
+    padding-left: 44%;
+    padding-bottom: 1%;
+    }
+
+    /*-------------------------------FOOTER-------------------------*/
+
+.footer h2, p, address{
+    text-align: left;
+    }
+
+
+
+   /*-------------------------------FRONT PAGE------------------------*/
+ .centered h1{
+    font-size: 2.5rem;
+ }
+   .flex-container1{
+    flex-direction: row;
+    align-items: center;
+} 
+ .cans{
+    padding-left: 20%;
+
+}
+  /*-------------------------------VORES SMAGE-------------------------*/
+.flex-container3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+ .flex-container4{
+    flex-direction: row;
+    }
+.flex-container5{
+    flex-direction: row;
+    }
+.flex-container6{
+    flex-direction: row;
+    }
+.flex-container7{
+    flex-direction: row;
+    }
+.flex-container3, .flex-container4, .flex-container5, 
+.flex-container6, .flex-container7, .flex-item {
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+    }
+
+     /*-------------------------------INNSPIRATION-------------------------*/
+
+.info{
+    padding-top: 3%;
+    }
+.flex-container-inspo{
+    flex-direction: row;
+    align-items: center;
+    }
+.flex-container-inspo, .flex-item{
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: left;
+    }
+.scalable-container{
+    align-items: center;
+    }
+.scalable-image{
+    max-height: 0%;
+    }
+.flex-item p{
+    text-align: justify;
+    padding: 0%;
+    line-height: 2;
+    font-size: 1.3rem;
+    }   
+.info p{
+    padding-top: 0%;
+    line-height: 2;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.3rem;
+    }
+  /*-------------------------------EVENTS------------------------*/
+
+.flex-container-events{
+    flex-direction: row;
+    }
+.flex_container2{
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    }
+.container {
+    padding: 10px;
+    }
+.footer {
+    padding: 5px 0;
+    }
+
+/*-------------------------------FIND OS-------------------------*/
+
+.flex-container-find{
+    flex-direction: row;
+    }
+.places{
+    margin-left: 18%;
+    margin-top: 5%;
+    }
+.flex-container-find, h3, ul{
+    font-size: 1.5rem;
+    }
+.koncert{
+    max-width: 65%;
+    padding-left: 12%;
+    padding-right: 10%;
+    }
+.container2 {
+    position: relative;
+    height: auto;
+    color: white;
+    padding-top: 5%;
+    }
+  .container2 h3{
+    font-size: 1.8rem;
+    }
+  .container2 h5{
+    font-style: italic;
+    font-size: 1rem;
+    }
+
+}
